@@ -1,5 +1,5 @@
 # Welcome to the Windows Package Manager Red Team repo
-This repository contains manifest files for the **Windows Package Manager**. It is a fork of the official Community repo that hosts offensive security tools that may be used by security professionals. It is regularly updated from the Community. You are highly encouraged to submit manifests for your favorite application.
+This repository contains manifest files for the **Windows Package Manager**. It is a fork of the official Community repo that hosts offensive security tools that may be used by security professionals. **To ensure usability and sharability of these tools, all packages should be hosted on servers that do NOT scan the contents with AV.** It is regularly updated from the Community. You are highly encouraged to submit manifests for your favorite application.
 
 The **Windows Package Manager** is an open source client.  You will find the source code [here](https://github.com/microsoft/winget-cli).
 
