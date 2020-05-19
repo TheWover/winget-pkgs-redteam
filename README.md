@@ -1,5 +1,5 @@
-# Welcome to the Windows Package Manager Community repo
-This repository contains the manifest files for the **Windows Package Manager**.  You are highly encouraged to submit manifests for your favorite application.
+# Welcome to the Windows Package Manager Red Team repo
+This repository contains manifest files for the **Windows Package Manager**. It is a fork of the official Community repo that hosts offensive security tools that may be used by security professionals. It is regularly updated from the Community. You are highly encouraged to submit manifests for your favorite application.
 
 The **Windows Package Manager** is an open source client.  You will find the source code [here](https://github.com/microsoft/winget-cli).
 
@@ -36,7 +36,7 @@ Installers:
 ```
 
 ### Using the YAMLCreate.ps1
-To help author manifest files, we have provided a YAMLCreate.ps1 powershell script located in the Tools folder.  
+To help author manifest files, Microsoft has provided a YAMLCreate.ps1 powershell script located in the Tools folder.  
 The script will prompt you for the URL to the installer, then will prompt you to fill in metadata.
 
 I recommend running the script in the location where you want to produce the manifest file.  For example: `manifests\<publisher>\<package>\`.  After successful completion, it will produce the YAML file.
